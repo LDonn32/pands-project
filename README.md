@@ -26,3 +26,22 @@ Project outline.
 2 make sure to reference as I go, link the references with the code I am using.
 3 explain the code back to myself so that i fully understand whats going on in the code.
 4 write my text files in my voice
+
+
+1. Research the data set online and write a summary about it in your README.
+
+The data set can be found online on UC Irvine Machine Learning Website.
+[Link] https://archive.ics.uci.edu/dataset/53/iris
+
+More information I found helpful about the dataset can be accessed via the link below. 
+[Link] https://www.youtube.com/watch?v=5dLG3JDk2VU
+
+Summary
+
+The Iris dataset is one of the most popualr datasets used in statistics and machine learning. It was collected in 1936 by Statistician and Biologist Ronald Fisher. The purpose of the dataset is to classify the data based on its features.
+
+The dataset contains fifty samples from three different types of Iris flowers; Iris setosa, Iris virginica and Iris versicolor. It has four features that are measured for each of the fifty samples. They are; the length and the width of the sepals and petals, in cms.
+
+Fisher used the data from this data set to create a linear discriminant model to distinguish each species. Following on from this it became a widely used test dataset for many statistical classification techniques in machine learning.
+
+
