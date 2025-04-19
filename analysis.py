@@ -71,4 +71,6 @@ for i, feature in enumerate(feature_names):
     # Add a title
     plt.title(f"Histogram of {feature}")
     
+    # Show
+plt.show()
  
