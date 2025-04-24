@@ -40,8 +40,6 @@ print(f"Summary saved to {file_path}")
 
 
 
-
-
 # Pands_Project 
 # Section 5 - Saves a histogram of each variable to png file
 # Author: Laura Donnelly
