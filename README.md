@@ -1,18 +1,26 @@
 # pands-project
 PANDS project looking at the iris data set
 
+Author: Laura Donnelly
 
+This ReadMe file for the 2025 Programming and Scripting Module for the H. Dip in Science in Data Analytics, ATU will do the following:
 
-This project concerns the well-known Fisher’s Iris data set. 
-You must research the data set and write documentation and code in Python to investigate it. 
-An online search for information on the data set will convince you that many people have investigated it previously. 
-You are expected to be able to break this project into several smaller tasks that are easier to solve, and to plug these together after they have been completed. 
+*Give a description of the project objectives.
 
+*State what technologies and libraries were used.
 
-You might do that for this project as follows: 
+*Give an outline of the project's progress. (Perhaps with an issue on github. Unsure if I am using this correctly as of yet but been playing around with one that I can link later if works ok)
+
+*Present additional information, comments and insights for code used in each of the tasks.
+
+*Includes references and additional resources used.
+
+# Project Objectives:
 1. Research the data set online and write a summary about it in your README. 
-2. Download the data set and add it to your repository. 
-3. Write a program called analysis.py that: 
+2. Download the data set and add it to your repository.
+   
+3. Write a program called analysis.py that:
+   
 1. Outputs a summary of each variable to a single text file, 
 2. Saves a histogram of each variable to png files, and 
 3. Outputs a scatter plot of each pair of variables. 
@@ -20,23 +28,29 @@ You might do that for this project as follows:
 
 
 
-Project outline. 
+# Project outline:
 
-1 set up an issue to plan out project outline. 
+1 (optional) set up an issue to plan out project outline. 
 2 make sure to reference as I go, link the references with the code I am using.
 3 explain the code back to myself so that i fully understand whats going on in the code.
 4 write my text files in my voice
 
 
-1. Research the data set online and write a summary about it in your README.
+# Technologies used:
+
+
+# Libraries / Packages used:
+
+
+
+*1. Research the data set online and write a summary about it in your README.*
 
 The data set can be found online on UC Irvine Machine Learning Website.
 [Link] https://archive.ics.uci.edu/dataset/53/iris
 
-More information I found helpful about the dataset can be accessed via the link below. 
-[Link] https://www.youtube.com/watch?v=5dLG3JDk2VU
+More information I found helpful about the dataset on the Intuitive Machine Learning ToutTbe channel can be accessed via [YouTube](https://www.youtube.com/watch?v=5dLG3JDk2VU).
 
-Summary
+## Summary
 
 The Iris dataset is one of the most popualr datasets used in statistics and machine learning. It was collected in 1936 by Statistician and Biologist Ronald Fisher. The purpose of the dataset is to classify the data based on its features.
 
