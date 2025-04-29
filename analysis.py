@@ -48,27 +48,60 @@ print(f"Summary saved to {file_path}")
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.datasets import load_iris
+# Plot histograms for each feature.
+# See: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.subplots.html
 
-# Load Iris dataset
-iris = load_iris()
-data = iris.data
-feature_names = iris.feature_names
+fig, axes = plt.subplots(2, 2, figsize=(10, 8))  # Create a 2x2 grid of subplots
 
-# Plot and save histograms for each feature
-for i, feature in enumerate(feature_names):
-    # Create a new figure for each histogram
-    plt.figure(figsize=(6, 4))
-    
-    # Plot the histogram for the current feature
-    plt.hist(data[:, i], bins=20, color='pink', edgecolor='purple')
-    
-    # Add labels for x and y axes
-    plt.xlabel(feature)
-    plt.ylabel("Frequency")
-    
-    # Add a title
-    plt.title(f"Histogram of {feature}")
-    
-    # Show
+# Plot each feature's histogram.
+# See: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.hist.html
+
+axes[0, 0].hist(df['sepal_length'], bins=20, color='skyblue', edgecolor='blue')
+
+# Set the title.
+# See: https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.set_title.html
+
+axes[0, 0].set_title('Sepal Length (cm)')
+
+# Set the x-axis.
+# See: https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.set_xlabel.html
+
+axes[0, 0].set_xlabel('Sepal Length (cm)')
+
+# Set the y-axis.
+# See: https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.set_ylabel.html
+
+axes[0, 0].set_ylabel('Frequency')
+
+# Repeat the above steps for the remaining 3 features, changing colours of each histogram to distinguish them from each other.
+
+axes[0, 1].hist(df['sepal_width'], bins=20, color='lightpink', edgecolor='purple')
+axes[0, 1].set_title('Sepal Width (cm)')
+axes[0, 1].set_xlabel('Sepal Width (cm)')
+axes[0, 1].set_ylabel('Frequency')
+
+axes[1, 0].hist(df['petal_length'], bins=20, color='coral', edgecolor='red')
+axes[1, 0].set_title('Petal Length (cm)')
+axes[1, 0].set_xlabel('Petal Length (cm)')
+axes[1, 0].set_ylabel('Frequency')
+
+axes[1, 1].hist(df['petal_width'], bins=20, color='lightgreen', edgecolor='green')
+axes[1, 1].set_title('Petal Width (cm)')
+axes[1, 1].set_xlabel('Petal Width (cm)')
+axes[1, 1].set_ylabel('Frequency')
+
+
+
+# Adjust layout to prevent overlap
+# See: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.tight_layout.html
+
+plt.tight_layout()
+
+
+# Save the histogram as a png.
+plt.savefig('Histogram.png')
+
+# Show the plots
+# See: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.show.html
+
 plt.show()
- 
