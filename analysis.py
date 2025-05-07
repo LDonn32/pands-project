@@ -1,25 +1,52 @@
 # Pands_Project 
-# Section 4 - Outputs a summary of each variable to a single text file
+
 # Author: Laura Donnelly
 
 
+# Import libraries.
 
-# import Pandas to load the datasets
+# Import sklearn to load the datasets.
+import sklearn as skl
+from sklearn import datasets
+
+# Import r2_score to calculate the r2.
+from sklearn.metrics import r2_score
+
+# import pandas.
 import pandas as pd
 
-# Import sklearn
-import sklearn as skl
+# import matplotlib.pyplot to plot the data.
+import matplotlib.pyplot as plt
+
+# import Line2D to create a custom legend.	
+from matplotlib.lines import Line2D
+
+# import matplotlib.cm to create a colormap.
+import matplotlib.cm as cm
+
+#import numpy to create arrays.
+import numpy as np
+
+#import seaborn for data visulation.
+import seaborn as sns
+
+
+
+# Load the iris dataset.
+# See: https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_iris.html
 
 # Load dataset. This command loads the iris data set and its features. 
 data = skl.datasets.load_iris()
 
-# print
-data
 
-# load the iris dataset through Pandas CVS
-df = pd.read_csv('https://gist.githubusercontent.com/curran/a08a1080b88344b0c8a7/raw/0e7a9b0a5d22642a06d3d5b9bcbad9890c8ee534/iris.csv')
+# Create a DataFrame from the iris dataset.
+# See: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html
 
-# Summerise the data set
+df = pd.DataFrame(data.data, columns=data.feature_names)
+
+
+# Summerise the data set.
+# See: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html
 df.describe()
 
 # Store the results as a variable
