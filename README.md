@@ -42,8 +42,9 @@ This ReadMe file for the 2025 Programming and Scripting Module for the H. Dip in
 # Libraries / Packages used:
 
 
+# **Project Tasks**
 
-*1. Research the data set online and write a summary about it in your README.*
+## *1. Research the data set online and write a summary about it in your README.*
 
 The data set can be found online on UC Irvine Machine Learning Website.
 [Link] https://archive.ics.uci.edu/dataset/53/iris
