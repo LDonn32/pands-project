@@ -1,7 +1,8 @@
-# pands-project
-PANDS project looking at the iris data set
+# **pands-project**
 
 Author: Laura Donnelly
+
+This PANDS project will be looking at the well-known Iris data set.
 
 This ReadMe file for the 2025 Programming and Scripting Module for the H. Dip in Science in Data Analytics, ATU will do the following:
 
@@ -47,7 +48,7 @@ This ReadMe file for the 2025 Programming and Scripting Module for the H. Dip in
 ## *1. Research the data set online and write a summary about it in your README.*
 
 The data set can be found online on UC Irvine Machine Learning Website.
-[Link] https://archive.ics.uci.edu/dataset/53/iris
+[archive.ics.uci.edu](https://archive.ics.uci.edu/dataset/53/iris)
 
 More information I found helpful about the dataset on the Intuitive Machine Learning ToutTbe channel can be accessed via [YouTube](https://www.youtube.com/watch?v=5dLG3JDk2VU).
 
@@ -59,4 +60,10 @@ The dataset contains fifty samples from three different types of Iris flowers; I
 
 Fisher used the data from this data set to create a linear discriminant model to distinguish each species. Following on from this it became a widely used test dataset for many statistical classification techniques in machine learning.
 
+## *2. Download the data set and add it to your repository.*
 
+I downloaded the iris data set from [archive.ics.uci.edu](https://archive.ics.uci.edu/dataset/53/iris) onto my own machine. From there I uploaded it to the repository by utilising the add file button (left to the green code button) and uploading the file there. I used [docs.github.com](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository) for support here.
+
+## 3. Write a program called analysis.py that: 
+
+## 1. Outputs a summary of each variable to a single text file. 
