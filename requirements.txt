@@ -1,0 +1,10 @@
+
+import sklearn as skl
+from sklearn import datasets
+from sklearn.metrics import r2_score
+import pandas as pd
+import matplotlib.pyplot as plt
+from matplotlib.lines import Line2D
+import matplotlib.cm as cm
+import numpy as np
+import seaborn as sns
