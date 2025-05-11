@@ -71,7 +71,6 @@ print(f"Summary saved to {file_path}")
 # Author: Laura Donnelly
 
 
-
 # Check how the names of the features appear in the dataset.
 print(df.columns)
 
