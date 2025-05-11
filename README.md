@@ -148,12 +148,12 @@ Looking at the Iris dataset, I can use the median to help me understand the cent
 
 ## Additional comments for the project:
 
-I wanted to ensure this project was accessable for anyone who has dylexia or colourblindness. My background is in social science and I currently work in adult education, and I wanted to ensure that this project wouldnt be limited to anyone who had either of these. I found seaborn had built in colour blind friendly palattes. I also found that it was compatiable with OpenDyslexic, so it made it the easiest package to use for this project for accessability of readers.
+I wanted to ensure this project was accessable for anyone who has dylexia or colourblindness. My background is in social science and I currently work in adult education, and I wanted to ensure that this project wouldnt be limited to anyone who had either of these. I found seaborn had built in colour blind friendly palattes. I also found that it was easy to change font types and sizes, so it made it the best package to use for this project for accessability of readers.
 
 
 ## Additional Resources:
 
-For this project I used OpenDyslexic, a new open sourced font created to increase readability for readers with dyslexia, website link [opendyslexic.org](https://opendyslexic.org/).
+For this project I referred to [www.bdadyslexia.org.uk](https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide) for information on dyslexic friendly fonts. 
 
 Another resource used for making data visualisation accessible, [plotset.com](https://plotset.com/blog/making-data-visualizations-accessible).
 
