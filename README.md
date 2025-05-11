@@ -1,4 +1,4 @@
-# **pands-project**
+# **pands-project** Using the Iris Dataset for Data Visulation.
 
 Author: Laura Donnelly
 
@@ -222,8 +222,6 @@ I used [ChatGBT](https://chatgpt.com/)chatGBT for support and prompts were refer
 [www.kaggle.com](https://www.kaggle.com/code/shrutimechlearn/step-by-step-pca-with-iris-dataset?scriptVersionId=11461313&cellId=7)
 
 [Iris Dataset Archive UCI ]( https://archive.ics.uci.edu/datasets/)
-
-## Additional Resources:
 
 Useful template for creating this ReadMe file- [Github Best ReadMe Template](https://github.com/othneildrew/Best-README-Template/blob/main/README.md)
 
