@@ -24,6 +24,7 @@ data = skl.datasets.load_iris()
 # Create a DataFrame from the iris dataset.
 # See: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html
 df = pd.DataFrame(data.data, columns=data.feature_names)
+target_classes = data.target
 
 # Summerise the data set.
 # See: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html
